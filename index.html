@@ -1,15 +1,126 @@
 <!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<title>parallax and blur</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-	</head>
-	<body>
-		<section id="contenedorGeneral">
-		</section>
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+<html lang="en">
+  <head>
+    <title>Portafolio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div id="home" class="block">
+      <nav class="pushpin" data-target="home">
+        <div class="nav-wrapper indigo">
+          <a href="#" class="brand-logo dropdown-button" data-activates="dropdown1">logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#home">home</a></li>
+            <li><a href="#sobre">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contactos</a></li>
+          </ul>
+          <ul id="dropdown4" class="dropdown-content">
+            <li><a href="#home">home</a></li>
+            <li><a href="#sobre">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contactos</a></li>
+          </ul>
+        </div>
+      </nav>
+      <br>
+      <div class="titulo">
+        <h1>ANNIE BARDALES</h1>
+        <span id="letter"></span>
+      </div>
+    </div>
+    <div id="sobre" class="block purple darken-2">
+      <nav class="pushpin purple darken-4" data-target="sobre">
+        <div class="nav-wrappe ">
+          <a href="#" class="brand-logo dropdown-button" data-activates="dropdown2">logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#home">home</a></li>
+            <li><a href="#sobre">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contactos</a></li>
+          </ul>
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a href="#home">home</a></li>
+            <li><a href="#sobre">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contactos</a></li>
+          </ul>
+        </div> 
+      </nav>
+      <span>
+        Hola, mi nombre es annie, he estudiado comunicacion audiovisual ya que me agradan los mercados creativos y dinamicos, actualmente estudio Programacion Web especializada en front-end uso JavaScript como  lenguaje de programacion de eventos, soy responsable, proactiva, obtinada con mis decisiones pero flexible a las eventualidades, mis hobbies son importantes para mi ya que me ayudan a direccionar mi creatividad y entreno mi manejo del stress.
+      </span>
+    </div>
+    <div id="habilidades" class="block deep-purple lighten-3">
+      <nav class="pushpin" data-target="habilidades">
+        <div class="nav-wrapper deep-purple accent-3">
+          <a href="#" class="brand-logo dropdown-button" data-activates="dropdown3">logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#home">home</a></li>
+            <li><a href="#sobre">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contactos</a></li>
+          </ul>
+          <ul id="dropdown3" class="dropdown-content">
+            <li><a href="#home">home</a></li>
+            <li><a href="#sobre">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contactos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="proyectos" class="block teal darken-4">
+      <nav class="pushpin" data-target="proyectos">
+        <div class="nav-wrapper  teal darken-2">
+          <a href="#" class="brand-logo dropdown-button" data-activates="dropdown4">logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#home">home</a></li>
+            <li><a href="#sobre">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contactos</a></li>
+          </ul>
+          <ul id="dropdown4" class="dropdown-content">
+            <li><a href="#home">home</a></li>
+            <li><a href="#sobre">Sobre mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contactos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <footer id="contacto" class="page-footer-wrapper grey lighten-1">
+      <div class="row">
+        <div class="col s6-wrapper">
+          <img src="img/catbkg.png">
+        </div>
+        <div class="col s6-wrapper">
+          <h5>Contactame</h5>
+          <span>Puedes ver mi curriculum en el siguiente enlace</span><br>
+          <input type="submit" value="Descargar CV" id="informacion" class="perfil waves-effect waves-purple btn pink accent-3"><br>
+        </div>
+      </div>
+      <div class="footer-copyright">
+          © Annie Bardales, All rights reserved.
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/letter.js"></script>
+  </body>
 </html>
