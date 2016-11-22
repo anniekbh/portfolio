@@ -1,13 +1,16 @@
-@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url("https://fonts.googleapis.com/css?family=Raleway:100i");
 
 * {
 	margin:0;
 	padding:0;
-	font-family: "Julius Sans One", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: white;
 	box-sizing: border-box;
 }
 
+div.row{
+	margin-bottom: 0px;
+}
 .block {
     min-height: 100vh;
 }
@@ -34,8 +37,31 @@ nav ul li a:hover, nav ul li a.active {
 	font-size: 2.5rem;
 	word-wrap: break-word;
 }
+.descrip{
+	border-radius: 15px;
+	padding: 1rem;
+	margin:1rem;
+	margin-bottom: 0px;
+	font-size: 1.3rem;
+	background-color: rgba(245, 222, 179, 0.51);
+}
+
+.descrip img{
+	width: 100%;
+	margin: 0.8rem;
+}
 
 footer{
 	width: 100%;
 	padding: 8em 4em;
+}
+a i{
+	padding: 0.8rem;
+}
+a i:hover, a i:active {
+	font-size: 250%;
+	background-color: wheat;
+	border-radius: 4px;
+	text-align: center;
+	box-shadow: 6px;
 }
