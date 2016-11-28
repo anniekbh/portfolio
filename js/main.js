@@ -4,6 +4,7 @@
       bottom: 1000,
       offset: 0
     });
+    $('.slider').slider();
     $('.pushpin').each(function() {
 	    var $this = $(this);
 	    var $target = $('#' + $(this).attr('data-target'));
@@ -11,5 +12,5 @@
 	      top: $target.offset().top,
 	      bottom: $target.offset().top + $target.outerHeight() - $this.height()
 	    });
-	});  
+    });  
   });
