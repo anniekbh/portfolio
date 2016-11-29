@@ -48,7 +48,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 /*******Sobre mi**********/
 #sobre{
-	background-color:#AFB6C4;
+	background-color:#d3d9e7;
 	padding-bottom: 2rem;
 }
 
@@ -71,7 +71,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 /*******habilidades**********/
 #habilidades {
-	background-color:#DBCED1;
+	background-color:#ebe5e7;
 }
 
 #habilidades nav{
@@ -80,7 +80,7 @@ nav ul li a:hover, nav ul li a.active {
 
 /*******proyecto**********/
 #proyectos {
-	background-color:#A3C5B2;
+	background-color:#f9fcfa;
 }
 
 #proyectos nav{
