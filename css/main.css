@@ -106,9 +106,56 @@ nav ul li a:hover, nav ul li a.active {
 	font-size: 2rem;
 }
 
-.slider .slides li img {
-	height: 9rem;
+.slider .slides li .caption p {
+	color: black;
+}
+
+.slider .slides li .uno {
+	display: inline;
+	background-image: url("../img/bitacora.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: +10;
 	width: 8rem;
+	height: 18rem;
+}
+
+.slider .slides li .dos {
+	display: inline;
+	background-image: url("../img/trellojs.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: +10;
+	width: 8rem;
+	height: 18rem;
+}
+
+.slider .slides li .tres {
+	display: inline;
+	background-image: url("../img/lyft.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: +10;
+	width: 8rem;
+	height: 18rem;
+}
+
+.slider .slides li .cuatro {
+	display: inline;
+	background-image: url("../img/bueno.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: +10;
+	width: 8rem;
+	height: 18rem;
 }
 
 /*******contacto**********/
