@@ -61,13 +61,13 @@ nav ul li a:hover, nav ul li a.active {
 	padding: 1.5rem;
 	margin:1rem;
 	margin-bottom:0px;
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 	background-color: rgba(245, 222, 179, 0.51);
 }
 
-.descrip img{
-	width: 100%;
-	margin: 0.8rem;
+#sobre .propic{
+	width: 93%;
+	margin: 0.9rem;
 }
 /*******habilidades**********/
 #habilidades {
