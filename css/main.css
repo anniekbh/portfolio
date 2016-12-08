@@ -108,51 +108,12 @@ nav ul li a:hover, nav ul li a.active {
 
 .slider .slides li .caption p {
 	color: black;
-	display: inline;
+	display: inline-block;
 }
 
-.slider .slides li .uno {
-	background-image: url("../img/bitacora.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	position: absolute;
-	z-index: +10;
-	width: 8rem;
-	height: 18rem;
-}
-
-.slider .slides li .dos {
-	background-image: url("../img/trellojs.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	position: absolute;
-	z-index: +10;
-	width: 8rem;
-	height: 18rem;
-}
-
-.slider .slides li .tres {
-	background-image: url("../img/lyft.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	position: absolute;
-	z-index: +10;
-	width: 8rem;
-	height: 18rem;
-}
-
-.slider .slides li .cuatro {
-	background-image: url("../img/bueno.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	position: absolute;
-	z-index: +10;
-	width: 8rem;
-	height: 18rem;
+.slider .slides li img {
+	width: 12rem;
+	height: 21rem;
 }
 
 /*******contacto**********/
